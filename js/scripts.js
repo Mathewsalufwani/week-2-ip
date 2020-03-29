@@ -19,4 +19,9 @@ function nameReveal(DD, MM, YY, CC, GN) {
     if (CC < 1 || CC > 20 || CC !== CC){
         alert("Please enter a valid century of birth")
     }
+
+    var GN = document.getElementById("GN").value;
+
+    var dateCheck = parseInt(((((CC/4) -2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + DD ) % 7));
+
 }
