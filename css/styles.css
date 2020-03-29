@@ -30,12 +30,25 @@
 }
 
 #clr{
-    height: 2.2cm;
+    height: 1.6cm;
 }
 
 
 .scroll{
     background-color: #f2f2f2;
+}
+
+#lt{
+    background-color: #e6e6e6;
+}
+
+.lead{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+}
+
+#bld{
+    font-weight: bold;
 }
 
 
