@@ -7,7 +7,7 @@ When on the page, the user is first taken through the basic function of the webs
 * Core I5
 * 8GB of RAM
 * At least 256GB of memory
-* AN up-to-date web browser
+* An up-to-date web browser
 ## Known Bugs
 None at the moment. Feel free to contact if any arise.
 ## Technologies Used
