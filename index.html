@@ -19,13 +19,45 @@
                             <h2 class="card-title">How it works</h2>
                         </div>
                         <div class="card-body">
-                            <p class="lead">Enter the day, month and year you were born as prompted and we will do the rest. You will know tour Akan name in no time!</p>
+                            <p class="lead">Enter the day, month, year and century you were born as prompted and we will do the rest. You will know your Akan name in no time!</p>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn btn-secondary btn-lg btn-block" autofocus>Take me there!</button>
+                            <a id="buttn" class="btn btn-outline-info btn-block" href="#bomb" role="button">Take me there!</a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id="clr" class="p-3 mb-2 bg-transparent text-dark">.</div>
+            <div id="bomb" class="p-3 mb-2 bg-secondary text-white">
+                <h3>Fill out this form to know your Akan Name</h3>
+            </div>
+            <div class="scroll">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Enter day of Birth</label>
+                        <input type="text" class="form-control" id="DD" placeholder="DD">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Enter month of Birth</label>
+                        <input type="text" class="form-control" id="MM" placeholder="MM">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Enter year of Birth</label>
+                        <input type="text" class="form-control" id="YR" placeholder="YY">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Enter Century of Birth</label>
+                        <input type="text" class="form-control" id="CN" placeholder="CC">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Select your gender</label>
+                        <select class="form-control" id="GN">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Check Akan Name</button>
+                </form>
             </div>
         </div>
     </body>
