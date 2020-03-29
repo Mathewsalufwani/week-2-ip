@@ -26,12 +26,16 @@
 
 #bomb{
     text-align: center;
+    height: 1.18cm;
 }
 
 #clr{
     height: 2.2cm;
 }
 
+
 .scroll{
     background-color: #f2f2f2;
 }
+
+
