@@ -15,6 +15,7 @@ This website was created on Visual Studio Code using:
 * HTML
 * CSS
 * JavaScript
+## Link to live page
 [Access the website with this link](https://mathewsalufwani.github.io/portfolio/)
 ## Contact Information
 If you encounter any problems, be sure to email me at mathewalufwani@gmail.com or call me on +254704189013.
