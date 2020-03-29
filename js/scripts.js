@@ -5,5 +5,8 @@ function nameReveal(DD, MM, YY, CC, GN) {
         alert("Please enter a valid day of birth")
     }
 
-
+    var MM = parseInt(document.getElementById("MM").value);
+    if (MM < 1 || MM > 12 || MM !==DD){
+        alert("Please enter a valid month of birth")
+    }
 }
