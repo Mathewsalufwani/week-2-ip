@@ -30,5 +30,8 @@ function nameReveal(DD, MM, YY, CC, GN) {
     if (GN === "Male"){
         var chosenAkan = guyNames[calculateDate];
         bld.innerHTML = "Your Akan name is " + chosenAkan + "";
+    } else {
+        var chosenAkan = femNames[calculateDate];
+        bld.innerHTML = "Your Akan name is " + chosenAkan + "";
     }
 }
