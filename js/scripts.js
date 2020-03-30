@@ -22,6 +22,13 @@ function nameReveal(DD, MM, YY, CC, GN) {
 
     var GN = document.getElementById("GN").value;
 
-    var dateCheck = parseInt(((((CC/4) -2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + DD ) % 7));
+    var calculateDate = parseInt(((((CC/4) -2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + DD ) % 7));
 
+    var guyNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var femNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+    if (GN === "Male"){
+        var chosenAkan = guyNames[calculateDate];
+        bld.innerHTML = "Your Akan name is " + chosenAkan + "";
+    }
 }
